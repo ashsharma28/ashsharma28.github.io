@@ -142,6 +142,29 @@
 <script src="/__/firebase/9.14.0/firebase-auth-compat.js"></script>
 <script src="/__/firebase/9.14.0/firebase-database-compat.js"></script>
 <script src="/__/firebase/init.js"></script>
+  
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyCGvMdKr2JwDs5G94lzvRV7hKQkSET_-_s",
+    authDomain: "expense-manager-526f8.firebaseapp.com",
+    databaseURL: "https://expense-manager-526f8.firebaseio.com",
+    projectId: "expense-manager-526f8",
+    storageBucket: "expense-manager-526f8.appspot.com",
+    messagingSenderId: "326798916498",
+    appId: "1:326798916498:web:faf94e1bce6970fcc45f4b"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
+  
+  
 
 <script src="scripts/main.js"></script>
 </body>
