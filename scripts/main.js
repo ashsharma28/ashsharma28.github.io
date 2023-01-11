@@ -36,15 +36,6 @@ var listeningFirebaseRefs = [];
 /**
  * Saves a new post to the Firebase DB.
  */
-
-
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
-
-import { } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"
-import { } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js"
-import { } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
-
-
 const firebaseConfig = {
   apiKey: "AIzaSyCGvMdKr2JwDs5G94lzvRV7hKQkSET_-_s",
   authDomain: "expense-manager-526f8.firebaseapp.com",
@@ -54,7 +45,7 @@ const firebaseConfig = {
   messagingSenderId: "326798916498",
   appId: "1:326798916498:web:faf94e1bce6970fcc45f4b"
 };
-const firebase = initializeApp(firebaseConfig);
+const app = firebase.initializeApp(firebaseConfig);
 
 
 
